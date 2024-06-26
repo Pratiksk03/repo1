@@ -1,0 +1,7 @@
+class Throwkey
+{	
+	public ststic void mian(String[]arg)
+	{
+	 	throws nwe Exception();
+	}
+}

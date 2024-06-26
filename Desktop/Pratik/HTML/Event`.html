@@ -1,0 +1,24 @@
+<html>
+<head></head>
+<body>
+<center>
+	<h1 onmouseout="change()">Event In javascript</h1>
+	<button onclick="show()">Show My Name</button>
+	<button ondblclick="display()">Date And Time</buttton>
+<br><br>
+<input onblur="change()">
+<script>
+function show(){
+document.write("<h1>My Name Is Pratik</h1>");
+}
+function display(){
+var date=Date()
+document.write("<h1>Current Date And Time:"+date+"</h1>");
+}
+function change(){
+document.write("Content is Changed......");
+}
+</script>
+</center>
+</body>
+</html>

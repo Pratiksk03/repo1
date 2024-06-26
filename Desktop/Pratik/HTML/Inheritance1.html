@@ -1,0 +1,36 @@
+<html>
+<head></head>
+<body>
+<center>
+<script>
+class Animal
+	{
+		common()
+		{
+			return"<h1>I Am Animal</h1>";
+		}
+	}
+	class Lion extends Animal
+	{
+		introl()
+		{
+			document.write("<h1>My Name Is Lion<br></h1>");
+			document.write(this.common());
+		}
+	}
+	class Rat extends Animal
+	{
+		intror()
+		{
+			document.write("<h1>My Name Is Rat<br></h1>");
+			document.write(this.common());
+		}
+	}
+l= new Lion();
+r=new Rat();
+l.introl();
+r.intror();
+</script>
+</center>
+</body>
+</html>
